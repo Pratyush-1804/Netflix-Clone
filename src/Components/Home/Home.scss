@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@400;500&display=swap');
+
+
+.banner{
+      height: 400px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+
+      &::after{
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 100%;
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+      >h1{
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
+            font-weight: 400;
+            width: 50%;
+            margin: 0 !important;
+      }
+      >p{
+            width: 50%;
+            word-spacing: 1.2px;
+            margin: 0 !important;
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      > div{
+            display: flex;
+            margin-top: 20px;
+             > button{
+                  padding: 10px 20px;
+                  margin: 10px;
+                  border: none;
+                  border-radius: 8px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  cursor: pointer;
+                  word-spacing: 1.1px;
+                  >svg{
+                        font-size: 20px;
+                  }
+            }
+      }
+}
+
+.genre{
+      margin: auto;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+      > a{
+            transition: all .5s ease-in-out;
+            background-color: white;
+            color: rgb(76, 76, 76);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px;
+      }
+      > a:hover{
+            transform: scale(1.1);
+      }
+      margin-bottom: 20px;
+      padding: 10px;
+}
+

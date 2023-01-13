@@ -1,0 +1,31 @@
+body{
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(90deg,rgb(1, 26, 26),rgb(7, 0, 12));
+      color: white;
+      overflow-x: hidden;
+}
+*{
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00324e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(112, 204, 195);
+}

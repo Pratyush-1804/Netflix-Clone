@@ -1,0 +1,9 @@
+.card{
+      width: 150px;
+      transition: all .4s ease-in;
+      margin: .3rem;
+      
+      &:hover{
+            transform: translateY(-10px);
+      }
+}

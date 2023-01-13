@@ -1,0 +1,40 @@
+.hader {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      background: transparent;
+      > img {
+            height: 70%;
+      }
+}
+
+.navbar{
+      display: flex;
+      align-items: center;
+      > div{
+            width: 100%;
+            margin-left: 4vmax;
+
+            > a{
+                  margin: 1vmax;
+                  font-size: 1.1rem;
+                  font-weight: 300;
+                  transition: all .5s ease-in-out;
+            }
+            > a:hover{
+                  font-size: 19px;
+            }
+      }
+      justify-content: space-between;
+
+      > svg{
+            padding-right: 30px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: all .5s ease-in-out;
+      }
+      > svg:hover{
+            transform: scale(1.1);
+            color: rgb(174, 0, 0);
+      }
+}
